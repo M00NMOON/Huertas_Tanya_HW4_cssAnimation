@@ -1,4 +1,4 @@
-# Huertas_TM_Tailwind_HW3
+# Huertas_TM_CSS_Animation_HW
 This is a repo for CSS Animation Homework
 
 ## Installation
