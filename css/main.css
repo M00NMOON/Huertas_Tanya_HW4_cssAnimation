@@ -18,20 +18,20 @@ body {
 
 h1, p {
     font-family: "Bricolage Grotesque", sans-serif;
-    color: aliceblue;
+    color: black; 
     font-size: 50px;
     display: block;
     margin: 0 20px; 
 }
 
 h2 {
-    position: absolute;
-    left: -9999px;
+    position: absolute; 
+    left: -9999px; 
     width: 1px; 
     height: 1px; 
     overflow: hidden; 
     clip: rect(0, 0, 0, 0); 
-    border: 0;
+    border: 0; 
 }
 
 .content {
@@ -66,3 +66,6 @@ h2 {
     visibility: visible;
 }
 
+.scroll-white h1, .scroll-white p {
+    color: white;
+}

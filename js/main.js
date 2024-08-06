@@ -17,4 +17,12 @@ window.addEventListener('scroll', () => {
         thankYouMessage.classList.remove('show');
         animatedImages.forEach(img => img.classList.remove('show'));
     }
+
+    
+    const body = document.body;
+    if (scrollPercent > 0) {
+        body.classList.add('scroll-white');
+    } else {
+        body.classList.remove('scroll-white');
+    }
 });
